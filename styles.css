@@ -1,0 +1,341 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin-right:0px;
+}
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 600px; */
+}
+
+.cart-img-txt {
+    /* border: 1px solid black; */
+    margin-right: 5.5em;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 90px;
+    height: 33px;
+}
+
+.cart-img {
+    height: 23px;
+}
+
+.cart-items {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-bg {
+    background-image: url(https://github.com/Kalvium-Program/kidz-world-html-boilerplate/blob/main/assets/kw-background.png?raw=true);
+    /* border: 1px solid green; */
+    margin-top: -44px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27.313em;
+    width: 100%;
+}
+
+
+
+.main-txt {
+    position: relative;
+    top: 70px;
+    margin-left: 65px;
+    color: rgb(255, 255, 255);
+    /* border: solid 1px black; */
+    width: 370px;
+}
+
+.head-txt {
+    /* font-weight: 600; */
+    font-size: 4.063em;
+    line-height: 85px;
+
+}
+
+.head-sub-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: -25px;
+    font-size: 1.25em;
+}
+
+.discover {
+    /* border: rgb(0, 94, 255) 1px solid; */
+    width: 100vw;
+
+}
+
+.stack-div1 {
+    margin-left: 59px;
+    /* width: 82.5em; */
+    /* border: 1px solid rgb(255, 13, 13); */
+    display: flex;
+    margin-right: 30px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+
+}
+
+.discover-head {
+    font-size: 1.375;
+    font-weight: normal;
+    margin-top: 150px;
+    margin-bottom: -3px;
+    margin-left: 75px;
+}
+
+.stack1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 12.5em;
+    height: 21.875em;
+    margin-right: px;
+    /* border: 1px solid black; */
+}
+
+.stack1-img {
+    /* text-align: center; */
+    margin-top: 10px;
+    margin-left: 11.5px;
+    height: 15em;
+    /* border: 1px solid black; */
+
+}
+
+.stack1-text {
+    margin-top: -16px;
+    margin-left: 11.5px;
+    /* border: 1px solid black; */
+    line-height: 5px;
+    width: 15.625em;
+    height: 3.75em;
+}
+
+.stack1-text2 {
+    font-size: 0.813em;
+    color: grey;
+}
+
+.stack1-price-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-left: 11.5px;
+    width: 11em;
+    height: 2.5em;
+}
+
+.stack1-cart-img {
+
+    /* border: 1px solid black; */
+    height: 1.063em;
+    /* width: 50px; */
+}
+
+.blue-button {
+    height: 1.875em;
+    width: 4.375em;
+    /* border: 1px solid black; */
+    background-color: #6196FF;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: center; */
+}
+
+.add {
+    font-size: 0.875em;
+    color: white;
+}
+
+/* ............2222222 */
+
+.stack2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 21.875em;
+    height: 23.125em;
+    margin-right: 5px;
+    /* border: 1px solid black; */
+}
+
+.stack2-img {
+    margin-top: 10px;
+    margin-left: 11.5px;
+    height: 16.875em;
+}
+
+.discover2 {
+    /* border: rgb(193, 255, 49) 1px solid; */
+    margin-bottom: -150px;
+    width: 100vw;
+    height: 34.375em;
+}
+
+.stack2-price-cart {
+    /* border: black 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-left: 11.5px;
+    width: 18.5em;
+    height: 2.5em;
+}
+
+/* .........33333 */
+
+.discover-head3 {
+
+    font-size: 1.375;
+    font-weight: normal;
+    margin-top: 150px;
+    margin-bottom: -3px;
+    margin-left: 75px;
+}
+
+.discover3 {
+    /* margin-top: -150px; */
+    /* border: rgb(0, 94, 255) 1px solid; */
+    width: 100vw;
+    height: 35em;
+    /* margin-bottom: 0px; */
+}
+
+footer {
+    overflow: hidden;
+    margin-bottom: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: rgb(255, 132, 0) 1px solid; */
+    height: 11.875em;
+}
+
+.foot-1 {
+    margin-left: 50px;
+    margin-bottom: 19px;
+    color: white;
+    /* border: rgb(0, 94, 255) 1px solid; */
+    width: 12.5em;
+}
+
+.foot-2 {
+    height: 10em;
+    letter-spacing: 0.5px;
+    font-size: 0.938em;
+    color: white;
+    text-align: right;
+    /* border: rgb(0, 94, 255) 1px solid; */
+    width: 15.625em;
+    margin-top: 50px;
+    margin-right: 45px;
+}
+
+.footer-img {
+    height: 7.5em;
+    width: 7.5em;
+    border-radius: 100%;
+}
+
+.name,
+.kalvium {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.love {
+    position: relative;
+    right: 79px;
+    bottom: 51px;
+}
+
+.brought {
+    font-size: 1.438em;
+}
+
+
+/* @media screen and (max-width: 600px){
+    .stack-div1{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+/* align-items: center;
+    }
+
+    .main-bg{
+        display: flex;
+    }
+} */
+
+@media (max-width:760px) {
+    body {
+        /* overflow-x: hidden; */
+        /* text-align: center; */
+    }
+
+    .main-bg {
+        width: 100%;
+    }
+
+    .stack-div1 {
+        display: flex;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    footer {
+        position: relative;
+        top: 62.5em;
+    }
+
+    .discover2 {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-bottom: 450px; */
+
+    }
+
+    .discover3 {
+        margin-top: 1300px;
+        margin-left: 22px;
+    }
+
+    .main-txt {
+        width: 300px;
+    }
+
+    .discover-head {
+        text-align: center;
+        margin-right: 22px;
+    }
+
+    .discover-head3 {
+        text-align: left;
+        /* margin-right: -2px; */
+    }
+
+    .stack-div3{
+        margin-left: -10px;
+    }
+
+}
